@@ -300,3 +300,12 @@ const response2 : Response = {
         cvv : 127
     }
 }
+
+//Generics 
+
+function wrapInArray<T>(item : T) : T[]{
+  return [item]
+}
+
+// wrapInArray("Nawaz")
+// wrapInArray(1)
